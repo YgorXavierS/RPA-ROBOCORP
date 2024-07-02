@@ -55,7 +55,7 @@ def img_downLoad():
     page = br.page()
     #path
     'img/sales_summary.png'
-    page.screenshot(path='img/sales_summary.png')
+    page.screenshot(path='sales_summary.png')
 
 
 def log_out():
